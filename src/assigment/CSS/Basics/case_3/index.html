@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Case_3</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="icon" href="assets/favicon.png">
+
+    <style>
+        section{
+            height: 98vh;
+        }
+
+        section:nth-child(1) > div:nth-child(1) {
+            position: fixed;
+            border: 15px solid #9f9292;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+
+        section > div:nth-child(1) > div {
+            position: fixed;
+            border: 15px solid #ff0000;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 173px;
+            height: 173px;
+            border-radius: 100%;
+        }
+
+        section > div:nth-child(2) {
+            position: absolute;
+            background-color: #60116d;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 173px;
+            height: 173px;
+            border-radius: 100%;
+        }
+
+        section:nth-child(1) > div > h3 {
+            position: absolute;
+            left: 64px;
+            top: 52px;
+            color: white;
+        }
+
+        body > section:nth-child(2) {
+            position: relative;
+        }
+
+        body > section:nth-child(2) > div {
+            position: absolute;
+            background-color: #1ca5f3;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 173px;
+            height: 173px;
+            border-radius: 100%;
+        }
+
+        body > section:nth-child(2) > div > h3 {
+            position: absolute;
+            left: 41px;
+            top: 54px;
+            color: white;
+        }
+
+        body > section:nth-child(3) {
+            position: relative;
+        }
+
+        body > section:nth-child(3) > div {
+            position: absolute;
+            background-color: #ff7373;
+            left: 0px;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 173px;
+            height: 173px;
+            border-radius: 100%;
+        }
+
+        body > section:nth-child(3) > div > h3 {
+            position: relative;
+            font-size: 21px;
+            width: 98px;
+            text-align: center;
+            left: 40px;
+            right: 0px;
+            bottom: 0px;
+            top: 14px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<section>
+    <div>
+        <div>
+
+        </div>
+    </div>
+
+    <div>
+        <h3>Hello</h3>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h3>Welcome To</h3>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h3>Institute of Software Engineering</h3>
+    </div>
+</section>
+
+</body>
+</html>
