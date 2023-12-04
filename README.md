@@ -15,4 +15,6 @@ _This site is a home page for my portfolio. It will show previous work history, 
 - [JavaScript](#)
 
 ## Overview
-![port](https://user-images.githubusercontent.com/101160410/195815448-fdfe6c5c-0070-40a7-993a-4286a0223a86.PNG)
+
+![localhost_63342_My-portfoliyo-master_index html__ijt=n29us62ec8mpgiv60kuhu6h816(Nest Hub Max)](https://github.com/Kdulanjan/My_Portfolio-2--Html_css-/assets/101160410/88573710-bfa7-4611-ba29-1a8ca498022b)
+
